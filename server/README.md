@@ -18,6 +18,6 @@ go run *.go
 
 ### Dependencies
 
-* [Websocket](github.com/gorilla/websocket)
-* [UUID](github.com/satori/go.uuid)
-* [pq](github.com/lib/pq)
+* [Websocket](https://github.com/gorilla/websocket)
+* [UUID](https://github.com/satori/go.uuid)
+* [pq](https://github.com/lib/pq)
