@@ -1,6 +1,7 @@
 package main
 
 import (
+	"./db"
 	"fmt"
 	"github.com/gorilla/websocket"
 	"net/http"
@@ -16,6 +17,7 @@ var upgrader = websocket.Upgrader{
 
 func main() {
 	fmt.Println("Starting server at ws://127.0.0.1:8080/\nQuit the server with CONTROL-C.")
+	db.Connect()
 	hub := newHub()
 	go hub.run()
 

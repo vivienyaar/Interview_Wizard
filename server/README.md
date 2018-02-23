@@ -12,5 +12,6 @@ go run *.go
 
 ### Dependencies
 
-* [Websocket] (github.com/gorilla/websocket)
-* [UUID] (github.com/satori/go.uuid)
+* [Websocket](github.com/gorilla/websocket)
+* [UUID](github.com/satori/go.uuid)
+* [pq](github.com/lib/pq)

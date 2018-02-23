@@ -24,7 +24,9 @@
 4. (App) Create a button to send the correct transcript back to the server (through ws)
    (Server) Receives the correct transcript, and update the task table in database
 
-### Database Schema
+### Database
+[ElephantSQL](https://api.elephantsql.com/console/962e8cd4-3633-4335-996d-72ef1727d80c/details)
+
 * Task
 id    url    prediction     correct_transcript    completion
 -------------------------------------------------------------
