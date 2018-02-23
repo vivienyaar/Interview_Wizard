@@ -1,11 +1,17 @@
 
 ### Usage
 
-Install the dependencies and start the server.
+Install the dependencies.
 
 ```
 go get github.com/gorilla/websocket
 go get github.com/satori/go.uuid
+go get github.com/lib/pq
+```
+
+Start the server.
+
+```
 go run *.go
 ```
 
