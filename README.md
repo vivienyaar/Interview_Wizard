@@ -30,7 +30,8 @@
 ### Database
 [ElephantSQL](https://api.elephantsql.com/console/962e8cd4-3633-4335-996d-72ef1727d80c/details)
 
-* Task
+Task
+
 | id  | url | prediction  | correct_transcript | completion  | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | int  | string | string  | string | boolean  | 
