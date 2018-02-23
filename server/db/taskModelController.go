@@ -11,14 +11,14 @@ type Task struct {
 	// ...
 }
 
-// to call: GetById(1)
-func GetById(id int) (result Task, err error) {
+// to call: GetFirstUnfinished()
+func GetFirstUnfinished() (result Task, err error) {
 	// Todo
 	return Task{}, nil
 }
 
-// to call: taskInstance.Update(...)
-func (instance *Task) Update() (err error) {
+// to call: taskInstance.Update(id, ...)
+func (instance *Task) Update(id int) (err error) {
 	// Todo
 	return nil
 }
