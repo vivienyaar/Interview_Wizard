@@ -11,7 +11,7 @@
 
 ### Work flow
 1. When client loads, a websocket connection is initiated. The server then assigns a UUID to that client, and sends it.
-2. Client then requests a task to perform. Server retrieves the first unfinished task from database, and sends it back to the client.  (Task: listen to a peice of audio and input correct transcript)
+2. Client then requests a task to perform. Server retrieves the first unfinished task from database, and sends it back to the client.  (Task: listen to a piece of audio and input correct transcript)
 3. Client inspect the origina data and prediction from ML model, and inputs the correction.
 4. Client sends the correction back to the server, and server updates the database.  
 
