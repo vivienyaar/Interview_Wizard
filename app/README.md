@@ -16,6 +16,7 @@ npm run lint
 
 ### Dependencies
 
-* React
-* Webpack
+* [Electron](https://electronjs.org/)
+* [React](https://reactjs.org/)
+* [Webpack](https://webpack.js.org/)
 * [babel-loader](https://github.com/babel/babel-loader)
