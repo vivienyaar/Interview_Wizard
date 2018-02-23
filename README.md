@@ -18,15 +18,20 @@
 ### Todo
 1. (App) Displays the client ID on the top left corner of the window
 2. (App) Creates a button to send a websocket(ws) message to server which initiates a request
+
    (Server) Receives the request, and retrieves the first unfinished task (id, url to the original audio, prediction) from database.
+
    (Server) Sends the task info back to client
 3. (App) Displays the task info (audio, prediction), and creates a text input field to allow wizard to type in correct transcript. 
 4. (App) Create a button to send the correct transcript back to the server (through ws)
+
    (Server) Receives the correct transcript, and update the task table in database
 
 ### Database
 [ElephantSQL](https://api.elephantsql.com/console/962e8cd4-3633-4335-996d-72ef1727d80c/details)
 
 * Task
-id    url    prediction     correct_transcript    completion
--------------------------------------------------------------
+| id  | url | prediction  | correct_transcript | completion  | 
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| int  | string | string  | string | boolean  | 
+
