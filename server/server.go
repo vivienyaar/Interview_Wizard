@@ -16,8 +16,9 @@ var upgrader = websocket.Upgrader{
 }
 
 func main() {
-	fmt.Println("Starting server at ws://127.0.0.1:8080/\nQuit the server with CONTROL-C.")
+	fmt.Println("Starting server at ws://127.0.0.1:8080/")
 	db.Connect()
+	fmt.Println("Quit the server with CONTROL-C.")
 	hub := newHub()
 	go hub.run()
 
