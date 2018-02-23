@@ -4,6 +4,7 @@
   "main": "main.js",
   "description": "",
   "scripts": {
+    "lint": "eslint --ext .jsx,.js src",
     "start": "webpack && electron ."
   },
   "author": "",
